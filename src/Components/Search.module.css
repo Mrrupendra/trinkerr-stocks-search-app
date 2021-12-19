@@ -1,0 +1,39 @@
+/*Hover effect of serach contents*/
+.div-hover:hover {
+    background-color: #FAFAFA;
+}
+.div-hover:hover .buttonAdd {
+    visibility: visible;
+}
+h1:hover {
+    background-color: #FAFAFA;
+}
+/*WatchList file css*/
+.search-butt,.add-stock-list {
+    width: 50%;
+    border: 1px solid #f0f0f0;
+    padding: 2%;
+    margin: auto;
+}
+
+.add-stock-title {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* add and delete button*/
+.buttonAdd {
+    visibility: hidden;
+}
+.plus-buttn {
+    font-size: 25px;
+    border: 1px solid #D9D9D9;
+    padding: 1%;
+    position: absolute;
+    width: 7%;
+    top: 25px;
+    left: 400px;
+    background-color: white;
+    cursor: pointer;
+}
