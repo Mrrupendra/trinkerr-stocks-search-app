@@ -123,6 +123,16 @@ function WatchList () {
 
                 </div>
             </div>
+            <div style={{
+                width: "15%",
+                margin: "auto",
+                marginTop: "2%",
+                border: "1px solid #f0f0f0",
+                fontSize: "22px",
+                padding:"0.8%"
+            }}>
+                Search Stocks
+            </div>
         </div>
     )
 }
